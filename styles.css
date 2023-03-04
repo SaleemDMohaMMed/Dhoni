@@ -1,0 +1,47 @@
+body{
+    background-image: url('hi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    text-align: center;
+    color: blueviolet;
+    padding-top: 60px;
+    font-size: 30px;
+    font-weight: 777;
+
+}
+#display{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+
+}
+#img{
+    width: 410px;
+    height: 210px;
+    box-shadow: 10px 8px 7px rgb(174, 175, 172);
+    transition: all 0.2s ease;
+
+}
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 8px 7px rgb(134, 88, 2);
+}
+#btl{
+    padding-left:400px;
+    margin-top: 77px;
+
+}
+#btr{
+    padding-right: 400px;
+    margin-top: 77px;
+}
+#btr:hover,#btl:hover{
+    transform: scale(1.1);
+    color: rgb(238, 253, 19);
+}
+#btr:active,#btl:active{
+    transform: scale(1.9);
+    color: rgb(247, 247, 11);
+}
